@@ -1,0 +1,83 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.sidenav{
+    overflow: hidden;
+    transition: width 1.5s;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    color:  white;
+    background-color: rgb(5, 75, 14);
+    border: 1px solid lightgreen;
+    border-radius: 3px;
+}
+.sidenav ul li{
+    padding: 25px;
+    font-size: 28px;
+}
+.sidenav ul{
+    margin-top: 20px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.main{
+    transition: width 1.6s;
+    margin-left: 7%;
+
+}
+.sidenav button{
+    background: transparent;
+    border: none;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+ */
+
+
+
+
+
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 80px; */
+    background-color: rgb(65, 65, 5);
+ }
+ .header ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 90px;
+ }
+ .header h1{
+    font-size: 38px;
+    color: white;
+    padding: 38px;
+ }
+ .header ul li{
+    padding: 44px;
+    font-size: 28px;
+    color: white;
+ }
+ .header ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ .header ul li:hover a{
+    color: aqua;
+    border-radius: 4px;
+   
+ }
+ .active{
+    background-color: rgb(7, 66, 66);
+    border-radius: 10px;
+    padding: 20px;
+ }
